@@ -51,6 +51,8 @@ Parameters:
 
 <br/>
 
+**The value of DigitalReadFast() is the content of the input register e.g. 0x04 for pin2 and NOT always 0 or 1.**
+
 # Correct usage detection
 Defining `THROW_ERROR_IF_NOT_FAST` would cause the macro to return an error during compilation, if the parameter is a variable and thus regular digital* functions must be called.
 This notifies the programmer the specific line where code is still slow.
