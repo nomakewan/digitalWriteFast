@@ -78,6 +78,9 @@ If you use **megaTinyCore**, you cannot use "#include digitalWriteFast.h" becaus
 <br/>
 
 # Revision History
+### Version 1.3.1
+- Fixed double `__digitalPinToBit` bug for ATtiny.
+
 ### Version 1.3.0
 - Functions are single-statement safe.
 
